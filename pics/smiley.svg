@@ -2,12 +2,15 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="600px" height="400px" viewBox="0 0 600 400" enable-background="new 0 0 600 400" xml:space="preserve">
-<circle fill="#FFF200" stroke="#000000" stroke-miterlimit="10" cx="293.379" cy="193.694" r="173.423"/>
-<path stroke="#000000" stroke-miterlimit="10" d="M293.38,291.703c56.845,0,102.927-21.276,102.927-47.522H190.452
-	C190.452,270.427,236.534,291.703,293.38,291.703z"/>
+	 width="295.508px" height="295.509px" viewBox="64.772 5.524 295.508 295.509"
+	 enable-background="new 64.772 5.524 295.508 295.509" xml:space="preserve">
 <g>
-	<ellipse stroke="#000000" stroke-miterlimit="10" cx="220.857" cy="156.531" rx="22.297" ry="28.604"/>
-	<ellipse stroke="#000000" stroke-miterlimit="10" cx="365.901" cy="156.531" rx="22.298" ry="28.604"/>
+	<circle fill="#FFF200" stroke="#000000" stroke-miterlimit="10" cx="212.526" cy="153.279" r="147.755"/>
+	<path stroke="#000000" stroke-miterlimit="10" d="M212.526,236.781c48.432,0,87.693-18.127,87.693-40.489H124.833
+		C124.833,218.654,164.095,236.781,212.526,236.781z"/>
+	<g>
+		<ellipse stroke="#000000" stroke-miterlimit="10" cx="150.738" cy="121.616" rx="18.996" ry="24.37"/>
+		<ellipse stroke="#000000" stroke-miterlimit="10" cx="274.313" cy="121.616" rx="18.999" ry="24.37"/>
+	</g>
 </g>
 </svg>
