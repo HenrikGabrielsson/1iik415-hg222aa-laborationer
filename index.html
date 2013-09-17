@@ -5,56 +5,82 @@
         <meta charset="utf-8">
         <title>Startsida - Henriks webbplats</title>
         
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
-        
         
     </head>
     <body>
     
-        <h1>Henriks webbplats</h1>
-            <img src="pics/logo.png" width="250" height="118" alt="En logotyp" />
-            
+        <div id="container">
+            <div id="header">
+                <img src="pics/logo.png" width="250" height="118" alt="En logotyp" />
+            </div>
+                
+                
             <!--Navigation-->
-            <ul>
-                <li><a href="index.html">Start</a></li>
-                <li><a href="pages/presentation.html">Presentation</a></li>
-                <li><a href="pages/laborationer.html">Laborationer</a></li>
-                <li><a href="pages/kontakt.html">Kontakt</a></li>
-            </ul>
+            <div id="sidebar">
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="pages/presentation.html">Presentation</a></li>
+                    <li><a href="pages/laborationer.html">Laborationer</a></li>
+                    <li><a href="pages/kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            </div>
         
-            <!--Ett blogginlägg -->
-            <h2>Ett videoklipp</h2>
-                <p>
-                Här visas en trailer till filmen Big Buck Bunny. <a href="http://www.bigbuckbunny.org/index.php/trailer-page/">Källa</a>
-                </p>
-                <video id="bunny" width="400" height="300" controls>
-                    <source src="videos/bunny.mp4" type="video/mp4" />
-                    <source src="videos/bunny.ogg" type="video/ogg" />
+            <div id="main_content">
+                <h1>Henriks webbplats</h1>
                     
-                    <p>Din webbläsare har inte stöd för att visa klippet.</p>
-                </video>
-                <p>Skrivet av: Henrik Gabrielsson 2013-09-15</p>
-        
-        
-            <!--Ett blogginlägg -->
-            <h2>En SVG-bild</h2>
-                <p>
-                Här kommer en glad bild. Gjord i vektor-grafik.
-                </p>
-                <img src="pics/smiley.svg" alt="Ett glatt ansikte i vektorgrafik" id="smiley" width="300" height="300"/>
-                <p>Skrivet av: Henrik Gabrielsson 2013-09-14</p>
+                    <h2>Kursblogg</h2>
+                
+                        <!--Ett blogginlägg -->
+                        <div class="blogg_inlagg">
+                            <h3>Ett videoklipp</h3>
+                                <p>
+                                Här visas en trailer till filmen Big Buck Bunny. <a href="http://www.bigbuckbunny.org/index.php/trailer-page/">Källa</a>
+                                </p>
+                                <video id="bunny" width="400" height="300" controls>
+                                    <source src="videos/bunny.mp4" type="video/mp4" />
+                                    <source src="videos/bunny.ogg" type="video/ogg" />
+                                    
+                                    <p>Din webbläsare har inte stöd för att visa klippet.</p>
+                                </video>
+                                <p>Skrivet av: Henrik Gabrielsson 2013-09-15</p>
+                        </div>
+                    
+                    
+                    
+                        
+                        <!--Ett blogginlägg -->
+                        <div class="blogg_inlagg">
+                            <h3>En SVG-bild</h3>
+                                <p>
+                                Här kommer en glad bild. Gjord i vektor-grafik.
+                                </p>
+                                <img src="pics/smiley.svg" alt="Ett glatt ansikte i vektorgrafik" id="smiley" width="300" height="300"/>
+                                <p>Skrivet av: Henrik Gabrielsson 2013-09-14</p>
+                        </div>
+                    
+                    
+                        <!--Ett blogginlägg -->
+                        <div class="blogg_inlagg">
+                            <h3>Mitt första blogginlägg</h3>
+                                <p>
+                                I den här bloggen kommer jag att skriva om mina olika laborationer och publicera material som jag producerar.
+                                </p>
+                                <p>Skrivet av: Henrik Gabrielsson 2013-09-14</p>
+                        </div>
+                        
+                
+            </div>
             
-        
-        
-            <!--Ett blogginlägg -->
-            <h2>Mitt första blogginlägg</h2>
-                <p>
-                I den här bloggen kommer jag att skriva om mina olika laborationer och publicera material som jag producerar.
-                </p>
-                <p>Skrivet av: Henrik Gabrielsson 2013-09-14</p>
-        
             
-        
+            <!--Sidfot-->
+            <div id="footer">
+                <p>Sidan är skapad av Henrik Gabrielsson. <a href="pages/kontakt.html">Kontakta mig här!</a></p>
+            </div>
+        </div>
     </body>
 </html>
 

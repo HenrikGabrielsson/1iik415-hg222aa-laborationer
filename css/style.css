@@ -1,2 +1,86 @@
-@import url("reset.css");
+#container
+{
+    margin-right:auto;
+    margin-left:auto;
+    width:960px; 
+       
+}
+
+#header
+{
+width:inherit;    
+}
+
+#sidebar
+{
+    width: 200px;
+    float:left;
+    min-height:500px;
+}
+
+#menu 
+{
+    width:inherit;
+    
+}
+
+#main_content
+{
+    width:750px;
+    min-height:500px;
+    float:right
+}
+
+#footer
+{
+    width:inherit;
+    float:right;
+}
+
+
+.blogg_inlagg 
+{
+    min-height:200px;    
+    border:1px solid black;
+}
+
+.presentation_image
+{
+    float:left; 
+}
+
+#formulär
+{
+    
+}
+
+#laboration_lista
+{
+
+}
+
+#resultat_tabell
+{
+    
+}
+
+.labb
+{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

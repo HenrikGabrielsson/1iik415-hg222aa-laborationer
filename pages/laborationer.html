@@ -4,138 +4,165 @@
     <head>
         <meta charset="utf-8">
         <title>Laborationer - Henriks webbplats</title>
+        
+        <link href="../css/reset.css" rel="stylesheet" type="text/css">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+        
     </head>
 
     <body>
+        <div id="container">
+            <div id="header">
+                <img src="../pics/logo.png" width="250" height="118" alt="En logotyp" />
+            </div>   
     
-        <h1>Min laborationsportal</h1>
         
             <!--Navigation-->
-            <ul>
-                <li><a href="../index.html">Start</a></li>
-                <li><a href="presentation.html">Presentation</a></li>
-                <li><a href="laborationer.html">Laborationer</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-            
-            <!-- Kurs -->
-            <h2>Webbteknisk introduktion</h2>
-            
+            <div id="sidebar">
+            <div id="menu">
                 <ul>
-                <li><a href="#lab1">Laboration 1</a></li>
-                <li><a href="#lab2">Laboration 2</a></li>
+                    <li><a href="../index.html">Start</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
                 </ul>
-                
-                <!--Tabell med resultat -->
-                <h3>Resultat</h3>
+            </div>
+            </div>
             
-                    <table border="1" id="resultat_tabell">
-                        <thead>
-                            <tr>
-                                <th>Laboration</th>
-                                <th>Uppgift</th>
-                                <th>Status</th>
-                                <th>Redovisad</th>
-                            </tr>
-                        </thead>
-                        <tfoot>
-                            <tr>
-                                <td colspan="4">Laborationsresultat för Henrik Gabrielsson</td>
-                            </tr>   
-                        </tfoot>
-                        
-                        
-                        <tbody>
-                            <tr >
-                                <td rowspan="9">1</td>
-                                <td>1</td>
-                                <td>Godkänd</td>
-                                <td>2013-09-16</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Godkänd</td>
-                                <td>2013-09-16</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Godkänd</td>
-                                <td>2013-09-16</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Godkänd</td>
-                                <td>2013-09-16</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Godkänd</td>
-                                <td>2013-09-16</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Godkänd</td>
-                                <td>2013-09-16</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Godkänd</td>
-                                <td>2013-09-16</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Godkänd</td>
-                                <td>2013-09-16</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>Godkänd</td>
-                                <td>2013-09-16</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                
-                
-                <h3 id="lab1">Laboration 1</h3>    
-                    <p>Uppgifter</p>
-                    <ol>
-                    <li>Utvecklingsmiljön. Check</li>    
-                    <li><a href="presentation.html">Ett första dokument</a></li>
-                    <li><a href="../index.html">Startsidan</a></li>
-                    <li>Absoluta och relativa sökvägar
-                        <dl>
-                        <dt>1.4.1. Vilken är den absoluta sökvägen till filen bottom.html?</dt>
-                        <dd>Svar: http://www.server.se/html/pages/bottom.html</dd>
-                        
-                        <dt>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
-                        <dd>Svar: pages/top.html</dd>
-                        
-                        <dt>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-                        <dd>Svar: ..\..\index.html</dd>
-                        
-                        <dt>1.4.4. Vilken är den absoluta sökvägen till filen index.html?</dt>
-                        <dd>Svar: http://www.server.se/</dd>
-                        
-                        <dt>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
-                        <dd>Svar: bottom.html</dd>
-                        
-                        <dt>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html</dt>
-                        <dd>Svar: html/pages/top.html</dd>
-                        </dl>
-                    </li>
-                    <li>Länkar och mer listor. Check.</li>
-                    <li>Bilder
-                        <br /> <a href="presentation.html#henrik"> Länk till bilden på presentationssidan</a>
-                        <br /> <a href="../pics/logo.png">Länk till logotypen</a>
-                        <br /> <a href="../index.html#smiley">Länk till vektorbilden</a></li>
+            <div id="main_content">
+                <h1>Min laborationsportal</h1>
+                    <!-- Kurs -->
+                    <h2>Webbteknisk introduktion</h2>
                     
-                    <li><a href="../index.html#bunny">Video</a></li>
-                    <li><a href="#resultat_tabell">Tabeller</a></li>
-                    
-                    
+                        <div id="laboration_lista">
+                            <ul>
+                            <li><a href="#lab1">Laboration 1</a></li>
+                            <li><a href="#lab2">Laboration 2</a></li>
+                            </ul>
+                        </div>
                         
-                    </ol>
-                
+                        
+                        <!--Tabell med resultat -->
+                        <div id="resultat_tabell">
+                            <h3>Resultat</h3>
+                        
+                                <table border="1" id="resultat_tabell">
+                                    <thead>
+                                        <tr>
+                                            <th>Laboration</th>
+                                            <th>Uppgift</th>
+                                            <th>Status</th>
+                                            <th>Redovisad</th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="4">Laborationsresultat för Henrik Gabrielsson</td>
+                                        </tr>   
+                                    </tfoot>
+                                    
+                                    
+                                    <tbody>
+                                        <tr >
+                                            <td rowspan="9">1</td>
+                                            <td>1</td>
+                                            <td>Godkänd</td>
+                                            <td>2013-09-16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Godkänd</td>
+                                            <td>2013-09-16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Godkänd</td>
+                                            <td>2013-09-16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Godkänd</td>
+                                            <td>2013-09-16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Godkänd</td>
+                                            <td>2013-09-16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>Godkänd</td>
+                                            <td>2013-09-16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td>Godkänd</td>
+                                            <td>2013-09-16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td>Godkänd</td>
+                                            <td>2013-09-16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td>Godkänd</td>
+                                            <td>2013-09-16</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                        
+                        
+                        <div class="labb">
+                            <h3 id="lab1">Laboration 1</h3>    
+                                <p>Uppgifter</p>
+                                <ol>
+                                <li>Utvecklingsmiljön. Check</li>    
+                                <li><a href="presentation.html">Ett första dokument</a></li>
+                                <li><a href="../index.html">Startsidan</a></li>
+                                <li>Absoluta och relativa sökvägar
+                                    <dl>
+                                    <dt>1.4.1. Vilken är den absoluta sökvägen till filen bottom.html?</dt>
+                                    <dd>Svar: http://www.server.se/html/pages/bottom.html</dd>
+                                    
+                                    <dt>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
+                                    <dd>Svar: pages/top.html</dd>
+                                    
+                                    <dt>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
+                                    <dd>Svar: ..\..\index.html</dd>
+                                    
+                                    <dt>1.4.4. Vilken är den absoluta sökvägen till filen index.html?</dt>
+                                    <dd>Svar: http://www.server.se/</dd>
+                                    
+                                    <dt>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
+                                    <dd>Svar: bottom.html</dd>
+                                    
+                                    <dt>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html</dt>
+                                    <dd>Svar: html/pages/top.html</dd>
+                                    </dl>
+                                </li>
+                                <li>Länkar och mer listor. Check.</li>
+                                <li>Bilder
+                                    <br /> <a href="presentation.html#henrik"> Länk till bilden på presentationssidan</a>
+                                    <br /> <a href="../pics/logo.png">Länk till logotypen</a>
+                                    <br /> <a href="../index.html#smiley">Länk till vektorbilden</a></li>
+                                
+                                <li><a href="../index.html#bunny">Video</a></li>
+                                <li><a href="#resultat_tabell">Tabeller</a></li>
+                                
+                                
+                                    
+                                </ol>
+                        </div>
+            </div>
+            
+             <!--Sidfot-->
+            <div id="footer">
+                <p>Sidan är skapad av Henrik Gabrielsson. <a href="kontakt.html">Kontakta mig här!</a></p>
+            </div>
+        </div>  
+        
     </body>
 
     

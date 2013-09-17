@@ -4,46 +4,69 @@
     <head>
         <meta charset="utf-8">
         <title>Kontakt - Henriks webbplats</title>
-    </head>
-
-    <body>
-    
-        <h1>Kontakt</h1>
-            <!--Navigation-->
-            <ul>
-                <li><a href="../index.html">Start</a></li>
-                <li><a href="presentation.html">Presentation</a></li>
-                <li><a href="laborationer.html">Laborationer</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-
-            <!-- Kontaktformulär -->
-            <h2>Fyll i formuläret</h2>
-                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
-                    <fieldset>
-                        <legend>Fråga</legend>
-                        <select name="ärendetyp">
-                            <option value="Fråga" selected>Fråga</option>
-                            <option value="Förslag">Förslag</option>
-                            <option value="Klagomål">Klagomål</option>
-                        </select>
-                        <br />
-                        Rubrik:<input type="text" name="rubrik" /><br />
-                        Fråga:<textarea rows="5" name="fråga"></textarea>
-                        
-                    </fieldset>
-                    
-                    <fieldset>
-                        <legend>Om dig</legend>
-                        Kontakta mig via mail:<input type="radio" name="kontaktsätt" value="mail" /><br />
-                        Kontakta mig via telefon:<input type="radio" name="kontaktsätt" value="telefon" /><br />
-                        
-                    </fieldset>
-                    
-                    <input type="submit" value="skicka formulär">
-                
-                </form>
         
+        <link href="../css/reset.css" rel="stylesheet" type="text/css">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        
+        <div id="container">
+            <div id="header">
+                <img src="../pics/logo.png" width="250" height="118" alt="En logotyp" />
+            </div>   
+            
+            
+            <!--Navigation-->
+            <div id="sidebar">
+            <div id="menu">
+                <ul>
+                    <li><a href="../index.html">Start</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            </div>
+            
+            <div id="main_content">
+                <h1>Kontakt</h1>
+                    <!-- Kontaktformulär -->
+                    <h2>Fyll i formuläret</h2>
+                        <div id="formulär">
+                            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" >
+                                <fieldset>
+                                    <legend>Fråga</legend>
+                                    <select name="ärendetyp">
+                                        <option value="Fråga" selected>Fråga</option>
+                                        <option value="Förslag">Förslag</option>
+                                        <option value="Klagomål">Klagomål</option>
+                                    </select>
+                                    <br />
+                                    Rubrik:<input type="text" name="rubrik" /><br />
+                                    Fråga:<textarea rows="5" name="fråga"></textarea>
+                                    
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <legend>Om dig</legend>
+                                    Kontakta mig via mail:<input type="radio" name="kontaktsätt" value="mail" /><br />
+                                    Kontakta mig via telefon:<input type="radio" name="kontaktsätt" value="telefon" /><br />
+                                    
+                                </fieldset>
+                                
+                                <input type="submit" value="skicka formulär">
+                            
+                            </form>
+                        </div>
+            </div>
+            
+            <!--Sidfot-->
+            <div id="footer">
+                <p>Sidan är skapad av Henrik Gabrielsson. <a href="kontakt.html">Kontakta mig här!</a></p>
+            </div>
+        </div>    
+            
     </body>
 
     
