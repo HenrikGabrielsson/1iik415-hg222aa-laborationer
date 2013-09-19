@@ -1,27 +1,28 @@
+/*div {border:1px solid black;}
+*/
 #container
 {
     margin-right:auto;
     margin-left:auto;
     width:960px; 
-       
 }
 
 #header
 {
-width:inherit;    
+    background-color:#c5cffb;
 }
 
 #sidebar
 {
     width: 200px;
+    height:500px;
     float:left;
-    min-height:500px;
+    background-color:#DFE4FD;
 }
 
 #menu 
 {
-    width:inherit;
-    
+    width:199px;   
 }
 
 #main_content
@@ -33,15 +34,16 @@ width:inherit;
 
 #footer
 {
-    width:inherit;
+    width:960px;
     float:right;
+    background-color:#c5cffb;   
+    height:60px;
 }
 
 
 .blogg_inlagg 
 {
     min-height:200px;    
-    border:1px solid black;
 }
 
 .presentation_image
@@ -49,10 +51,12 @@ width:inherit;
     float:left; 
 }
 
+
 #formulär
 {
     
 }
+
 
 #laboration_lista
 {
