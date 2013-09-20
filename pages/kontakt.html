@@ -24,7 +24,7 @@
                     <li><a href="../index.html">Start</a></li>
                     <li><a href="presentation.html">Presentation</a></li>
                     <li><a href="laborationer.html">Laborationer</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
                 </ul>
             </div>
             </div>
@@ -36,22 +36,21 @@
                         <div id="formulär">
                             <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" >
                                 <fieldset>
-                                    <legend>Fråga</legend>
+                                    <legend>Typ av ärende: </legend>
                                     <select name="ärendetyp">
                                         <option value="Fråga" selected>Fråga</option>
                                         <option value="Förslag">Förslag</option>
                                         <option value="Klagomål">Klagomål</option>
                                     </select>
                                     <br />
-                                    Rubrik:<input type="text" name="rubrik" /><br />
-                                    Fråga:<textarea rows="5" name="fråga"></textarea>
+                                    <legend>Rubrik: </legend><input type="text" name="rubrik" /><br />
+                                    <legend>Fråga: </legend><textarea rows="5" name="fråga"></textarea>
                                     
                                 </fieldset>
                                 
                                 <fieldset>
-                                    <legend>Om dig</legend>
-                                    Kontakta mig via mail:<input type="radio" name="kontaktsätt" value="mail" /><br />
-                                    Kontakta mig via telefon:<input type="radio" name="kontaktsätt" value="telefon" /><br />
+                                    <legend>Kontakta mig via mail: </legend><input type="radio" name="kontaktsätt" value="mail" /><br />
+                                    <legend>Kontakta mig via telefon: </legend><input type="radio" name="kontaktsätt" value="telefon" /><br />
                                     
                                 </fieldset>
                                 

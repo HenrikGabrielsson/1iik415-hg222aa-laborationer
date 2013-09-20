@@ -1,10 +1,11 @@
-/*div {border:1px solid black;}
-*/
+
 #container
 {
     margin-right:auto;
     margin-left:auto;
-    width:960px; 
+    width:960px;
+    overflow:auto;
+    border: 2px solid #c5cffb;
 }
 
 #header
@@ -12,18 +13,64 @@
     background-color:#c5cffb;
 }
 
+
 #sidebar
 {
-    width: 200px;
-    height:500px;
+    width: 150px;
+    height:300px;
     float:left;
     background-color:#DFE4FD;
 }
 
+
+
 #menu 
 {
-    width:199px;   
+    width:149px;   
 }
+
+#menu ul
+{
+    list-style-type:none;
+    padding-left: 0;
+}
+
+#menu li
+{
+    margin:5px;
+}
+
+#menu a
+{
+    font-family:euphemia, arial, sans-serif;
+    display:block;
+}
+
+#menu a:link
+{
+    color:black;
+    background-color:#c5cffb;
+    text-decoration:none;
+}
+#menu a:visited
+{
+    color:black;
+    background-color:#c5cffb;
+    text-decoration:none;
+}
+
+#menu a:hover
+{
+    background-color:white;
+    text-decoration:underline;
+}
+
+#menu .active
+{
+    font-weight:bold;
+}
+
+
 
 #main_content
 {
@@ -43,7 +90,9 @@
 
 .blogg_inlagg 
 {
+    background-color:#e7ebfe;
     min-height:200px;    
+
 }
 
 .presentation_image
@@ -54,37 +103,125 @@
 
 #formulär
 {
-    
+    border:1px solid #c5cffb;    
 }
 
-
-#laboration_lista
+#formulär input,button, select, fieldset
 {
-
+    margin: 10px 0 10px 0;
+}
+#formulär legend
+{
+    font-family:"Verdana", serif;
+    font-size: 11pt;
+    padding:0;
 }
 
-#resultat_tabell
+#resultat_tabell table,td,tr
 {
+    border:1px solid black;
     
+    font-family: verdana,serif;
+    font-size:11pt;
+}
+
+#resultat_tabell td
+{
+    text-align: center;
+    padding: 3px;
 }
 
 .labb
 {
-    
+    background-color:#e7ebfe;
+    margin-top:15px;
+}
+
+a:link
+{
+    color:blue;
+    text-decoration:none;
+}
+a:visited
+{
+    color:purple;
+    text-decoration:none;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+a:active
+{
+    color:#DFE4FD;    
+}
+
+
+h1 
+{
+    font-family:euphemia, arial, sans-serif;
+    font-size:40pt;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h2  
+{
+    font-family:euphemia, arial, sans-serif;
+    font-size:20pt;
+    margin-top:25px;
+    margin-bottom:10px;
+}
+
+h3
+{
+    font-family:euphemia, arial, sans-serif;
+    font-weight:bold;
+    font-size:16pt;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+p
+{
+    font-family:"Verdana", serif;
+    font-size: 11pt;
+    line-height:14pt;
 }
 
 
 
+ul
+{
+    padding-left:30px;
+    list-style-type: square;
+}
+
+ol
+{
+    padding-left:30px;
+    list-style-type:decimal;
+}
+
+dt
+{
+    padding-left:30px;
+    font-family:"Verdana";
+    font-size:11pt;
+    line-height:16pt; 
+    font-weight:bold;
+}
+dd
+{
+    margin-left:30px;    
+}
 
 
-
-
-
-
-
-
-
-
-
+li
+{
+    font-family:"Verdana";
+    font-size:11pt;
+    line-height:16pt;    
+}
 
 
