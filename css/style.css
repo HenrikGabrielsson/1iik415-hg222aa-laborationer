@@ -12,6 +12,9 @@
 #header
 {
     background-color:#c5cffb;
+    height:144px;
+    background-image:url('pics/logo.png');
+    background-repeat:no-repeat;
 }
 
 
@@ -101,9 +104,15 @@
 {
     background-color:#e7ebfe;
     min-height:200px;    
-
+    width:600px;
 }
 
+.blogg_inlagg h3
+{
+    background-image:url('pics/asterisk.png');
+    background-repeat:no-repeat;
+    padding-left:20px;
+}
 
 
 
