@@ -48,6 +48,114 @@
 
 
 
+/* Länkar, ej menyn */
+a:link
+{
+    color:blue;
+    text-decoration:none;
+}
+a:visited
+{
+    color:purple;
+    text-decoration:none;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+a:active
+{
+    color:#DFE4FD;    
+}
+
+
+
+
+/*Rubriker och <p> */
+h1 
+{
+    font-family:euphemia, arial, sans-serif;
+    font-size:40pt;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h2  
+{
+    font-family:euphemia, arial, sans-serif;
+    font-size:20pt;
+    margin-top:25px;
+    margin-bottom:10px;
+}
+
+h3
+{
+    font-family:euphemia, arial, sans-serif;
+    font-weight:bold;
+    font-size:16pt;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+p
+{
+    font-family:"Verdana", serif;
+    font-size: 11pt;
+    line-height:14pt;
+}
+
+
+
+
+/* Listor */
+ul
+{
+    padding-left:30px;
+    list-style-type: square;
+}
+
+ol
+{
+    padding-left:30px;
+    list-style-type:decimal;
+}
+
+dt
+{
+    padding-left:30px;
+    font-family:"Verdana";
+    font-size:11pt;
+    line-height:16pt; 
+    font-weight:bold;
+}
+dd
+{
+    margin-left:30px;    
+}
+
+li
+{
+    font-family:"Verdana";
+    font-size:11pt;
+    line-height:16pt;    
+}
+
+
+/* Bilder */
+
+.left
+{
+    margin:15px;
+    float:left; 
+}
+
+.right
+{
+    margin:15px;
+    float:right;     
+}
+
+
 
 
 /*Menyn */
@@ -166,118 +274,17 @@
     padding: 3px;
 }
 
+#resultat_tabell thead, tfoot
+{
+    background-color: #c5cffb;
+
+}
+
 .labb
 {
     background-color:#e7ebfe;
-    margin-top:15px;
+    margin:20px 0 20px 0;
 }
 
 
 
-
-/* Länkar, ej menyn */
-a:link
-{
-    color:blue;
-    text-decoration:none;
-}
-a:visited
-{
-    color:purple;
-    text-decoration:none;
-}
-a:hover
-{
-    text-decoration:underline;
-}
-a:active
-{
-    color:#DFE4FD;    
-}
-
-
-
-
-/*Rubriker och <p> */
-h1 
-{
-    font-family:euphemia, arial, sans-serif;
-    font-size:40pt;
-    margin-top:10px;
-    margin-bottom:10px;
-}
-
-h2  
-{
-    font-family:euphemia, arial, sans-serif;
-    font-size:20pt;
-    margin-top:25px;
-    margin-bottom:10px;
-}
-
-h3
-{
-    font-family:euphemia, arial, sans-serif;
-    font-weight:bold;
-    font-size:16pt;
-    margin-top:20px;
-    margin-bottom:10px;
-}
-
-p
-{
-    font-family:"Verdana", serif;
-    font-size: 11pt;
-    line-height:14pt;
-}
-
-
-
-
-/* Listor */
-ul
-{
-    padding-left:30px;
-    list-style-type: square;
-}
-
-ol
-{
-    padding-left:30px;
-    list-style-type:decimal;
-}
-
-dt
-{
-    padding-left:30px;
-    font-family:"Verdana";
-    font-size:11pt;
-    line-height:16pt; 
-    font-weight:bold;
-}
-dd
-{
-    margin-left:30px;    
-}
-
-li
-{
-    font-family:"Verdana";
-    font-size:11pt;
-    line-height:16pt;    
-}
-
-
-/* Bilder */
-
-.left
-{
-    margin:15px;
-    float:left; 
-}
-
-.right
-{
-    margin:15px;
-    float:right;     
-}
