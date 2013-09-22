@@ -105,6 +105,8 @@
     background-color:#e7ebfe;
     min-height:200px;    
     width:600px;
+    overflow:auto;
+    margin:20px 0 20px 0;
 }
 
 .blogg_inlagg h3
@@ -114,15 +116,13 @@
     padding-left:20px;
 }
 
+.skrivet_av
+{
+    font-style:italic;
+}
 
 
 /* element på presentation.html*/
-.presentation_image
-{
-    margin:15px;
-    float:left; 
-}
-
 .rubrik2_presentation
 {
     clear:left;
@@ -268,3 +268,16 @@ li
 }
 
 
+/* Bilder */
+
+.left
+{
+    margin:15px;
+    float:left; 
+}
+
+.right
+{
+    margin:15px;
+    float:right;     
+}
