@@ -7,6 +7,7 @@
     width:960px;
     overflow:auto;
     border: 2px solid #c5cffb;
+    background-color:#DFE4FD;
 }
 
 #header
@@ -23,14 +24,14 @@
     width: 150px;
     height:300px;
     float:left;
-    background-color:#DFE4FD;
 }
 
 #main_content
 {
     width:750px;
     min-height:500px;
-    float:right
+    float:right;
+    background-color:#FFFFFF;
 }
 
 #footer
@@ -214,7 +215,9 @@ li
     min-height:200px;    
     width:600px;
     overflow:auto;
-    margin:20px 0 20px 0;
+    margin:20px 10px 20px 10px;
+    border:1px solid #c5cffb;
+    padding:10px;
 }
 
 .blogg_inlagg h3
@@ -284,6 +287,8 @@ li
 {
     background-color:#e7ebfe;
     margin:20px 0 20px 0;
+        border:1px solid #c5cffb;
+    padding:10px;
 }
 
 
