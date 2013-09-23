@@ -2,8 +2,7 @@
 /*Huvud-elementen som bygger upp varje sida*/
 #container
 {
-    margin-right:auto;
-    margin-left:auto;
+    margin:auto;
     width:960px;
     overflow:auto;
     border: 2px solid #c5cffb;
@@ -31,7 +30,7 @@
     width:750px;
     min-height:500px;
     float:right;
-    background-color:#FFFFFF;
+    background-color:white;
 }
 
 #footer
@@ -77,16 +76,14 @@ h1
 {
     font-family:euphemia, arial, sans-serif;
     font-size:40pt;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin:10px 0 10px 10px;
 }
 
 h2  
 {
     font-family:euphemia, arial, sans-serif;
     font-size:20pt;
-    margin-top:25px;
-    margin-bottom:10px;
+    margin:25px 0 10px 10px;
 }
 
 h3
@@ -94,8 +91,7 @@ h3
     font-family:euphemia, arial, sans-serif;
     font-weight:bold;
     font-size:16pt;
-    margin-top:20px;
-    margin-bottom:10px;
+    margin:20px 0 10px 10px;
 }
 
 p
@@ -103,6 +99,7 @@ p
     font-family:"Verdana", serif;
     font-size: 11pt;
     line-height:14pt;
+    margin:10px;
 }
 
 
@@ -245,19 +242,25 @@ li
 /*Formuläret i kontakt.html*/
 #formulär
 {
-    border:1px solid #c5cffb;    
+    border:1px solid #c5cffb;   
+    background-color:#DFE4FD;
+    margin:10px;
+    width:600px;
 }
 
-#formulär input,button, select, fieldset
+#formulär input, select, fieldset
 {
     margin: 10px 0 10px 0;
 }
-#formulär legend
+#formulär label
 {
     font-family:"Verdana", serif;
     font-size: 11pt;
     padding:0;
+    background-color:white;
 }
+
+
 
 
 
