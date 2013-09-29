@@ -388,6 +388,7 @@ li
 
 #menu a
 {
+    padding-left:25px;
     font-family:euphemia, arial, sans-serif;
     display:block;
 }
@@ -415,6 +416,52 @@ li
 {
     font-weight:bold;
 }
+
+/*sprites för menyn*/
+#menu .active.menu_index
+{
+    background: #c5cffb url('pics/sprite.png') 0 0;
+    background-repeat:no-repeat;
+}
+#menu .menu_index
+{
+    background: #c5cffb url('pics/sprite.png')0 -48px;
+    background-repeat:no-repeat;
+}
+
+#menu .active.menu_presentation
+{
+    background: #c5cffb url('pics/sprite.png')0 -192px;
+    background-repeat:no-repeat;
+}
+#menu .menu_presentation
+{
+    background: #c5cffb url('pics/sprite.png')0 -240px;
+    background-repeat:no-repeat;
+}
+
+#menu .active.menu_laborationer
+{
+    background: #c5cffb url('pics/sprite.png')0 -96px;
+    background-repeat:no-repeat;
+}
+#menu .menu_laborationer
+{
+    background: #c5cffb url('pics/sprite.png')0 -144px;
+    background-repeat:no-repeat;
+}
+
+#menu .active.menu_kontakt
+{
+    background: #c5cffb url('pics/sprite.png')0 -288px;
+    background-repeat:no-repeat;
+}
+#menu .menu_kontakt
+{
+    background: #c5cffb url('pics/sprite.png')0 -336px;
+    background-repeat:no-repeat;
+}
+
 
 
 
