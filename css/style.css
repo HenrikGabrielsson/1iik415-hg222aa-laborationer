@@ -12,7 +12,10 @@
 
 #header
 {
-    display:none;
+    background-color:#c5cffb;
+    height:144px;
+    background-image:url('pics/logo.png');
+    background-repeat:no-repeat;
 }
 
 
@@ -40,7 +43,10 @@ a:visited
     color:black;
 }
 
-a:link:after, a:visited:after { content:" [" attr(href) "] "; }
+a:after 
+{ 
+    content:" [" attr(href) "] "; 
+}
 
 
 
@@ -173,6 +179,7 @@ li
 }
 #formulär label
 {
+    float:left;
     font-family:"times new roman", serif;
     font-size: 12pt;
     padding:0;
@@ -510,21 +517,15 @@ li
     background-color:#e7ebfe;
     margin:10px;
     width:600px;
-    padding-left:20px;
+    padding:20px;
 }
 
-#formulär input, select, fieldset
-{
-    margin: 10px 0 10px 0;
-}
+
 #formulär label
 {
     font-family:"Verdana", serif;
     font-size: 11pt;
-    padding:0;
-    background-color:white;
 }
-
 
 
 
