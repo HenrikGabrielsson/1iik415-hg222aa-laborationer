@@ -223,7 +223,7 @@ li
 {
     margin:auto;
     max-width:960px;
-    min-width:481px;
+    min-width:477px;
     overflow:auto;
     border: 2px solid #c5cffb;
     border-radius:10px;
@@ -243,11 +243,11 @@ li
 
 #main_content
 {
-    padding:1%;
-    width:78%;
+    width:70%;
     min-height:500px;
     float:right;
     background-color:white;
+    padding:1%;
 }
 
 #footer
@@ -292,7 +292,7 @@ a:active
 h1 
 {
     font-family:euphemia, arial, sans-serif;
-    font-size:40pt;
+    font-size:32pt;
     margin:10px 0 10px 10px;
     text-shadow: 5px 5px 5px #c5cffb;
 }
@@ -378,7 +378,7 @@ li
 #menu 
 {
     width:20%;
-    min-width:140px;
+    min-width:130px;
     float:left;
 }
 
