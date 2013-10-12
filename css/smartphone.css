@@ -24,14 +24,11 @@
 {
     width:100%;
     min-height:500px;
-    float:right;
     background-color:white;
-    padding:0 3% 0 1%;
 }
 
 #footer
 {
-    float:right;
     background-color:#c5cffb;   
     height:60px;
     width:100%;
@@ -152,12 +149,6 @@ li
 
 
 /*Menyn */
-#menu 
-{
-    min-width:123px;
-
-}
-
 #menu ul
 {
     list-style-type:none;
@@ -174,7 +165,6 @@ li
     height:40px;
     text-align:center;
     width:100%;
-    padding-left:25px;
     font-family:euphemia, arial, sans-serif;
     font-size:14pt;
     display:block;
