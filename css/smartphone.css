@@ -1,229 +1,8 @@
-
-/* Stilmall för utskrift*****************************************************************/
-@media print
-{
-
 /*Huvud-elementen som bygger upp varje sida*/
 #container
 {
     margin:auto;
-    overflow:auto;
-}
-
-#header
-{
-    background-color:#c5cffb;
-    height:144px;
-    background-image:url('pics/logo.png');
-    background-repeat:no-repeat;
-}
-
-
-#sidebar
-{
-    display:none;
-}
-
-#main_content
-{
-    
-    min-height:500px;
-    float:right;
-}
-
-
-
-/* Länkar, ej menyn */
-a:link
-{
-    color:black;
-}
-a:visited
-{
-    color:black;
-}
-
-a:after 
-{ 
-    content:" [" attr(href) "] "; 
-}
-
-
-
-/*Rubriker och <p> */
-h1 
-{
-    font-family:"times new roman", serif;
-    font-size:40pt;
-    margin:10px 0 10px 10px;
-}
-
-h2  
-{
-    font-family:"times new roman", serif;
-    font-size:20pt;
-    margin:25px 0 10px 10px;
-}
-
-h3
-{
-    font-family:"times new roman", serif;
-    font-weight:bold;
-    font-size:16pt;
-    margin:20px 0 10px 10px;
-}
-
-p
-{
-    font-family:"times new roman", serif;
-    font-size: 12pt;
-    line-height:14pt;
-    margin:10px;
-}
-
-
-
-
-/* Listor */
-ul
-{
-    padding-left:30px;
-    list-style-type: square;
-}
-
-ol
-{
-    padding-left:30px;
-    list-style-type:decimal;
-}
-
-dt
-{
-    padding-left:30px;
-    font-family:"times new roman", serif;
-    font-size:12pt;
-    line-height:16pt; 
-    font-weight:bold;
-}
-dd
-{
-    margin-left:30px;    
-}
-
-li
-{
-    font-family:"times new roman", serif;
-    font-size:12pt;
-    line-height:16pt;    
-}
-
-
-/* Bilder */
-
-.left
-{
-    margin:15px;
-    float:left; 
-}
-
-.right
-{
-    margin:15px;
-    float:right;     
-}
-
-/*Blogginläggen*/
-.blogg_inlagg 
-{
-    min-height:200px;    
-    width:600px;
-    overflow:auto;
-    margin:20px 10px 20px 10px;
-    border:1px solid black;
-    padding:10px;
-}
-
-.blogg_inlagg h3
-{
-    background-repeat:no-repeat;
-    padding-left:20px;
-}
-
-.skrivet_av
-{
-    font-style:italic;
-}
-
-
-/* element på presentation.html*/
-.rubrik2_presentation
-{
-    clear:left;
-}
-
-
-
-
-/*Formuläret i kontakt.html*/
-#formulär
-{
-    border:1px solid black;   
-    margin:10px;
-    width:600px;
-    padding-left:20px;
-}
-
-#formulär input, select, fieldset
-{
-    margin: 10px 0 10px 0;
-}
-#formulär label
-{
-    float:left;
-    font-family:"times new roman", serif;
-    font-size: 12pt;
-    padding:0;
-}
-
-
-
-/*Unika element för laborationer.html */
-#resultat_tabell table,td,tr
-{
-    border:1px solid black;
-    
-    font-family:"times new roman", serif;
-    font-size:12pt;
-}
-
-#resultat_tabell td
-{
-    text-align: center;
-    padding: 3px;
-}
-
-.labb
-{
-    margin:20px 0 20px 0;
-    border:1px solid black;
-    padding:10px;
-}
-    
-}
-
-
-
-
-/* Stilmall för skärmen*****************************************************************/
-@media screen
-{
-    
-/*Huvud-elementen som bygger upp varje sida*/
-#container
-{
-    margin:auto;
-    max-width:960px;
-    min-width:477px;
+    max-width:476px;
     overflow:auto;
     border: 2px solid #c5cffb;
     border-radius:10px;
@@ -243,8 +22,7 @@ li
 
 #main_content
 {
-    max-width:70%;
-    min-width:70%;
+    width:100%;
     min-height:500px;
     float:right;
     background-color:white;
@@ -376,9 +154,8 @@ li
 /*Menyn */
 #menu 
 {
-    width:25%;
     min-width:123px;
-    float:left;
+
 }
 
 #menu ul
@@ -394,9 +171,12 @@ li
 
 #menu a
 {
+    height:40px;
+    text-align:center;
+    width:100%;
     padding-left:25px;
     font-family:euphemia, arial, sans-serif;
-    font-size:11pt;
+    font-size:14pt;
     display:block;
 }
 
@@ -416,7 +196,7 @@ li
 
 #menu .active
 {
-    font-size:10pt;
+    font-size:14pt;
     font-weight:bold;
 }
 
@@ -558,7 +338,3 @@ li
     border-radius:15px;
     padding:10px;
 }
-
-}
-
-
