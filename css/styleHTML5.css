@@ -1,0 +1,280 @@
+ 
+ /*Huvud-elementen som bygger upp varje sida*/
+#container
+{
+    margin:auto;
+    max-width:960px;
+    min-width:477px;
+    overflow:auto;
+    border: 2px solid #c5cffb;
+    border-radius:10px;
+    background-color:#DFE4FD;
+
+}
+
+header
+{
+    background-color:#c5cffb;
+    width:100%;
+    height:144px;
+    background-image:url('pics/logo.png');
+    background-repeat:no-repeat;
+}
+
+
+main
+{
+    max-width:70%;
+    min-width:70%;
+    min-height:500px;
+    float:right;
+    background-color:white;
+    padding:0 3% 0 1%;
+}
+
+footer
+{
+    float:right;
+    background-color:#c5cffb;   
+    height:60px;
+    width:100%;
+    margin-top:20px;
+}
+footer p
+{
+    margin:20px
+}
+
+
+
+/* Länkar, ej menyn */
+a:link
+{
+    color:blue;
+    text-decoration:none;
+}
+a:visited
+{
+    color:purple;
+    text-decoration:none;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+a:active
+{
+    color:#DFE4FD;    
+}
+
+
+/*Rubriker och <p> */
+h1 
+{
+    font-family:euphemia, arial, sans-serif;
+    font-size:30pt;
+    margin:10px 0 10px 10px;
+    text-shadow: 5px 5px 5px #c5cffb;
+}
+
+h2  
+{
+    font-family:euphemia, arial, sans-serif;
+    font-size:20pt;
+    margin:25px 0 10px 10px;
+}
+
+h3
+{
+    font-family:euphemia, arial, sans-serif;
+    font-weight:bold;
+    font-size:16pt;
+    margin:20px 0 10px 10px;
+}
+
+p
+{
+    font-family:"Verdana", serif;
+    font-size: 11pt;
+    line-height:14pt;
+    margin:10px;
+}
+
+
+
+
+/* Listor */
+ul
+{
+    padding-left:30px;
+    list-style-type: square;
+}
+
+ol
+{
+    padding-left:30px;
+    list-style-type:decimal;
+}
+
+dt
+{
+    padding-left:30px;
+    font-family:"Verdana";
+    font-size:11pt;
+    line-height:16pt; 
+    font-weight:bold;
+}
+dd
+{
+    margin-left:30px;    
+}
+
+li
+{
+    font-family:"Verdana";
+    font-size:11pt;
+    line-height:16pt;    
+}
+
+
+/* Bilder */
+
+.left
+{
+    margin:15px;
+    float:left; 
+}
+
+.right
+{
+    margin:15px;
+    float:right;     
+}
+
+
+
+
+/*Menyn */
+nav
+{
+    width:25%;
+    min-width:123px;
+    float:left;
+}
+
+nav ul
+{
+    list-style-type:none;
+    padding-left: 0;
+}
+
+nav li
+{
+    margin:5px;
+}
+
+nav a
+{
+    padding-left:25px;
+    font-family:euphemia, arial, sans-serif;
+    font-size:11pt;
+    display:block;
+}
+
+nav a:link, nav a:visited
+{
+    color:black;
+    background-color:#c5cffb;
+    text-decoration:none;
+}
+
+
+nav a:hover
+{
+    background-color:white;
+    text-decoration:underline;
+}
+
+nav .active
+{
+    font-size:10pt;
+    font-weight:bold;
+}
+
+/*sprites för menyn*/
+nav .active.menu_index
+{
+    background: #c5cffb url('pics/sprite.png') 0 0;
+    background-repeat:no-repeat;
+}
+nav .menu_index
+{
+    background: #c5cffb url('pics/sprite.png')0 -48px;
+    background-repeat:no-repeat;
+}
+
+nav .active.menu_presentation
+{
+    background: #c5cffb url('pics/sprite.png')0 -192px;
+    background-repeat:no-repeat;
+}
+nav .menu_presentation
+{
+    background: #c5cffb url('pics/sprite.png')0 -240px;
+    background-repeat:no-repeat;
+}
+
+nav .active.menu_laborationer
+{
+    background: #c5cffb url('pics/sprite.png')0 -96px;
+    background-repeat:no-repeat;
+}
+nav .menu_laborationer
+{
+    background: #c5cffb url('pics/sprite.png')0 -144px;
+    background-repeat:no-repeat;
+}
+
+nav .active.menu_kontakt
+{
+    background: #c5cffb url('pics/sprite.png')0 -288px;
+    background-repeat:no-repeat;
+}
+nav .menu_kontakt
+{
+    background: #c5cffb url('pics/sprite.png')0 -336px;
+    background-repeat:no-repeat;
+}
+
+
+
+
+/*Blogginläggen*/
+article
+{
+    background-color:#e7ebfe;
+    min-height:200px;    
+    width:80%;
+    overflow:auto;
+    margin:20px 10px 20px 10px;
+    border:1px solid #c5cffb;
+    border-radius:15px;
+    padding:10px;
+    box-shadow:5px 5px 15px #999999;
+}
+
+article h3
+{
+    background-image:url('pics/asterisk.png');
+    background-repeat:no-repeat;
+    padding-left:20px;
+}
+
+article footer
+{
+    font-style:italic;
+}
+
+
+
+
