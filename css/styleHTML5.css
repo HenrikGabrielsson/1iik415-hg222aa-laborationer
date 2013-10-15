@@ -21,6 +21,14 @@ header
     background-repeat:no-repeat;
 }
 
+main header
+{
+    background-color:inherit;
+    width:100%;
+    height:inherit;
+    background-image:inherit;
+}
+
 
 main
 {
@@ -273,8 +281,11 @@ article h3
 article footer
 {
     font-style:italic;
+    background-color:inherit;   
+    height:inherit;
+    width:100%;
+    margin-top:0;
+    margin:0;
 }
-
-
 
 
