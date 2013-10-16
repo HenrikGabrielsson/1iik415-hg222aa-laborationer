@@ -1,4 +1,19 @@
-a :hover
+img
 {
-    transition
+    /*Förstorning*/
+    width:250px;
+    transition: width 1s;
+    -webkit-transition:width 1s;
+    
+        /*Skugga*/
+    
 }
+
+img:hover
+{
+    /*Förstorning*/
+    width:450px;
+    
+    /*Skugga*/
+}
+
