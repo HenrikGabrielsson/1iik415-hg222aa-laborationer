@@ -288,4 +288,13 @@ article footer
     margin:0;
 }
 
+aside section
+{
+    margin-top:20px;
+    width:100%;
+    background-color:#FFFFFF;
+    border:1px solid #c5cffb;
+    float:right;
+}
+
 
