@@ -1,19 +1,63 @@
+@font-face
+{
+    font-family:handskriven;
+    src: url('font/Cutie_Patootie.ttf')
+}
+
+body
+{
+    background-image: url('pics/wood.jpg');
+}
+
 img
 {
+    margin:-13px;
+    position:relative;
+    
+    
+    /*Förändring*/
+    transition: all 1s;
+    -webkit-transition:all 1s;
+    
     /*Förstorning*/
     width:250px;
-    transition: width 1s;
-    -webkit-transition:width 1s;
     
-        /*Skugga*/
+    /*Skugga*/
+    -webkit-box-shadow: 10px 5px 10px 10px #000000;
+    box-shadow: 10px 5px 10px 10px #000000;
     
+    /*Vridning*/
+    transform:rotate(10deg);
+    -webkit-transform:rotate(10deg);
+            
 }
 
 img:hover
 {
     /*Förstorning*/
-    width:450px;
+    width:350px;
     
     /*Skugga*/
+    -webkit-box-shadow: 10px 5px 70px 20px #000000;
+    box-shadow: 10px 5px 30px 30px #000000;
+
+    /*Vridning*/    
+    transform:rotate(15deg);
+    -webkit-transform:rotate(15deg);
+}   
+
+/*Bildtexter*/
+a
+{
+    text-decoration:none;
+    font-size:24pt;
+    color: black;
+    font-family:handskriven;
 }
+
+a:after 
+{ 
+    content:" "attr(title)" ";
+}
+
 
