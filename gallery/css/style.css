@@ -9,9 +9,18 @@ body
     background-image: url('pics/wood.jpg');
 }
 
+div
+{
+    margin:150px;
+}
+
+
 img
 {
-    margin:-13px;
+    background-color:white;
+    padding:10px 10px 60px 10px;
+    
+    margin:-20px;
     position:relative;
     
     
@@ -20,44 +29,70 @@ img
     -webkit-transition:all 1s;
     
     /*Förstorning*/
-    width:250px;
+    width:200px;
     
     /*Skugga*/
-    -webkit-box-shadow: 10px 5px 10px 10px #000000;
-    box-shadow: 10px 5px 10px 10px #000000;
+    -webkit-box-shadow: 2px 2px 20px 10px #000000;
+    box-shadow: 2px 2px 20px 10px #000000;
     
     /*Vridning*/
-    transform:rotate(10deg);
-    -webkit-transform:rotate(10deg);
+    transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
             
+}
+
+a:nth-child(2n + 0) img
+{
+    transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
 }
 
 img:hover
 {
+    position:relative;
+    z-index:9;
+ 
     /*Förstorning*/
-    width:350px;
+    width:300px;
+    padding:15px 15px 90px 10px;   
     
     /*Skugga*/
-    -webkit-box-shadow: 10px 5px 70px 20px #000000;
-    box-shadow: 10px 5px 30px 30px #000000;
+    -webkit-box-shadow: 5px 5px 60px 30px #000000;
+    box-shadow: 5px 5px 60px 30px #000000;
 
     /*Vridning*/    
-    transform:rotate(15deg);
-    -webkit-transform:rotate(15deg);
+    transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
 }   
+
+a:nth-child(2n + 0) img:hover
+{
+    /*Vridning*/    
+    transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+}   
+
+
 
 /*Bildtexter*/
 a
 {
     text-decoration:none;
-    font-size:24pt;
+    font-size:20pt;
     color: black;
     font-family:handskriven;
 }
 
 a:after 
 { 
+    position:relative;
+    top:-20px;
+    right:200px;
+    
+    z-index:10;
     content:" "attr(title)" ";
+    
+    
 }
 
 
