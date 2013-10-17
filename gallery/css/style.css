@@ -1,7 +1,6 @@
-@font-face
+a: after
 {
-    font-family:handskriven;
-    src: url('font/Cutie_Patootie.ttf')
+    content:" "attr(title)" ";
 }
 
 body
@@ -14,9 +13,19 @@ div
     margin:150px;
 }
 
-
 img
 {
+    /*Förändring*/
+    transition: all 1s;
+    -webkit-transition:all 1s;
+    
+    width:100%;
+}
+
+a
+{
+    float:left;
+    
     background-color:white;
     padding:10px 10px 60px 10px;
     
@@ -36,18 +45,27 @@ img
     box-shadow: 2px 2px 20px 10px #000000;
     
     /*Vridning*/
-    transform:rotate(-5deg);
-    -webkit-transform:rotate(-5deg);
+    transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    
+    display:block;
+        
+    text-decoration:none;
+    font-size:20pt;
+    color: black;
+    font-family:handskriven;
+    text-align:center;
+    
             
 }
 
-a:nth-child(2n + 0) img
+a:nth-child(3n + 0)
 {
-    transform:rotate(5deg);
-    -webkit-transform:rotate(5deg);
+    transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
 }
 
-img:hover
+a:hover, a:focus
 {
     position:relative;
     z-index:9;
@@ -63,32 +81,19 @@ img:hover
     /*Vridning*/    
     transform:rotate(0deg);
     -webkit-transform:rotate(0deg);
-}   
+    
+    font-size:30pt;
+}
 
-a:nth-child(2n + 0) img:hover
+
+@font-face
 {
-    /*Vridning*/    
-    transform:rotate(0deg);
-    -webkit-transform:rotate(0deg);
-}   
-
-
-a
-{
-    text-decoration:none;
-    font-size:20pt;
-    color: black;
     font-family:handskriven;
+    src: url('font/Cutie_Patootie.ttf')
 }
 
-a:after 
-{ 
-    position:relative;
-    top:-20px;
-    right:200px;
-    
-    z-index:10;
+a:after
+{
     content:" "attr(title)" ";
-    
-    
 }
+
